@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(/images-about/back-2.jpg)  fixed no-repeat;
+    background: url(../images-about/back-2.jpg)  fixed no-repeat;
     background-size:cover;
 
 
