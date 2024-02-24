@@ -35,15 +35,15 @@ header{
 }
 
 .name-of-site:hover > .bxs-leaf{
-    color: green;
-    filter:drop-shadow(0 0 0.75rem #81B214);
+    color: green !important;
+    filter:drop-shadow(0 0 0.75rem #81B214) !important;
 }
 .this-page{
-    background-color:#433520;
-    color: #7D5A50;
+    background-color:#433520 !important;
+    color: #7D5A50 !important;
 }
 .this-page a{
-    color: #C08261;
+    color: #C08261 !important;
 }
 .profile{
     color: #766161;
@@ -69,27 +69,36 @@ header{
     transform: translateX(80px);
 }
 a{
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    transition: 0.7s;
+    text-decoration: none !important;
+    color: #000 !important;
+    font-size: 18px !important;
+    transition: 0.7s !important;
 }
-li:hover{
-    background-color:#765827;
-    color: #fff;
+header li:hover{
+    background-color:#765827 !important;
+    color: #fff !important;
 }
-li:hover a{
-    color: #fff;
-    animation: bounce;
+header li:hover a{
+    color: #fff !important;
+    animation: bounce !important;
 }
 
-li{
-    color: black;
-    margin: 0px 10px;
-    border-radius: 50px;
-    transition: 1s;
-    list-style: none;
+header li{
+    color: black !important;
+    margin: 0px 10px !important;
+    /* border-radius: 50px !important; */
+    transition: 1s !important;
+    list-style: none !important;
     padding:7px 20px;
+}
+.products{
+    background-color: #6e5836 !important;
+}
+.products a{
+color: #e7c0ab !important;
+}
+.submenu li{
+    font-size: 17px !important;
 }
 header i{
     font-size: 35px;
@@ -99,7 +108,7 @@ header i{
 }
 
 header i:hover{
-    color: green;
+    color: green !important;
     filter:drop-shadow(0 0 0.75rem #81B214);
 }
 strong{
@@ -586,3 +595,83 @@ border: 3px solid #000;
 .bx-wink-smile{
     animation: ;
 } */
+/* new css */
+
+.select-and-sort{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: orange;
+    padding:50px 0;
+}
+.select-and-sort section{
+    justify-content: center;
+    display: flex;
+    scale: 1.1;
+}
+.mini-gallery{
+    /* scale:1.5; */
+    /* padding-left: 200px; */
+    justify-content: center;
+    display: grid;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.gallery{
+    /* padding: 30px 0 20px 180px; */
+    text-align: center;
+    font-size: 40px;
+}
+.sort{
+    padding-top: 20px;
+    line-height: 30px;
+    /* border: 3px solid red; */
+}
+
+#selectable .ui-selecting {
+    background: #7D6285;
+}
+
+#selectable .ui-selected {
+    scale: 1.05;
+    background: blueviolet;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: white;
+}
+
+#selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#selectable li {
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    width: 230px;
+    height: 158px;
+    font-size: 4em;
+    text-align: center;
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sortable li {
+    margin: 5px;
+    padding: 10px;
+}
+
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}

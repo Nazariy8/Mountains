@@ -7,6 +7,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/jquery.dmenu.css">
 
     <link rel="stylesheet" href="./css/animate.css">
     <style>
@@ -24,6 +27,54 @@
             </div>
             <nav class="pages-of-site">
                 <ul class="site-navigate">
+
+                <li class="SubmenuAlignRight wow fadeInDown products" data-wow-delay="100ms">
+                    <a href="#">Каталог товарів</a>
+                    <ul class="submenu">
+                        <li>Чашки
+                            <ul>
+                                <li>Керамічні</li>
+                                <li>Скляні</li>
+                                <li>Декоративні</li>
+                                <li>Порцелянові</li>
+                            </ul>
+                        </li>
+                        <li>Футболки
+                            <ul>
+                                <li>Чоловічі</li>
+                                <li>Жіночі</li>
+                                <li>Дитячі</li>
+                            </ul>
+                        </li>
+                        
+
+                        <li>Худі
+                            <ul>
+                                <li>Вовна</li>
+                                <li>Фліс</li>
+                                <li>Тринитка</li>
+                                <li>Дайвінг</li>
+                            </ul>
+                        </li>
+                        
+                        <li>Шкарпетки
+                            <ul>
+                                <li>Чоловічі</li>
+                                <li>Жіночі</li>
+                                <li>Дитячі</li>
+                            </ul>
+                        </li>
+                        <li>Шапки
+                            <ul>
+                                <li>Чоловічі</li>
+                                <li>Жіночі</li>
+                                <li>Дитячі</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
                 <li class="this-page wow fadeInDown" data-wow-delay="200ms"><a href="index.html">Головна</a></li>
                 <li class="wow fadeInDown" data-wow-delay="400ms"><a href="about.html">Про гори</a></li>
                 <li class="wow fadeInDown" data-wow-delay="600ms"><a href="table.html">Послуги</a></li>
@@ -130,7 +181,7 @@
                         
                     </section>
                 </div>
-
+                
                 <!-- <div class="illustr">
                     <div class="img-num1">
                         <img src="images/" alt="">
@@ -143,6 +194,62 @@
                 </div> -->
             </div>
        
+            <div class="select-and-sort wow bounceInUp" data-wow-delay=".4s">
+                <section>
+                    <div style="padding-right: 30px;">
+                    <h1 class="gallery">Галерея</h1>
+                    <ul class="mini-gallery" id="selectable">
+                        <li class="ui-state-default"><img src="./images-sort-select/gora-1.jpg" alt=""width="220px" height="148px"/></li>
+                        <li class="ui-state-default"><img src="./images-sort-select/gora-2.jpg" alt=""width="220px" height="148px"/></li>
+                        <li class="ui-state-default"><img src="./images-sort-select/gora-3.jpg" alt=""width="220px" height="148px"/></li>
+                        <li class="ui-state-default"><img src="./images-sort-select/gora-4.jpg" alt=""width="220px" height="148px"/></li>
+                        <li class="ui-state-default"><img src="./images-sort-select/gora-5.png" alt=""width="220px" height="148px"/></li>
+                        <li class="ui-state-default"><img src="./images-sort-select/gora-6.jpg" alt=""width="220px" height="148px"/></li>
+                        <li class="ui-state-default"><img src="./images-about/Shpuci/Shpuci-main.jpg" alt="" width="220px" height="148px" /></li>
+                        <li class="ui-state-default"><img src="./images-about/bluznica/bluznica.jpeg" alt="" width="220px" height="148px" /></li>
+                        <li class="ui-state-default"><img src="./images-about/goverla/Goverla-img.jpg" alt="" width="220px" height="148px" /></li>
+
+                        
+                    </ul>
+                    </div>
+
+                    <!-- <div class="col-lg-6">
+                        <h4>Виберіть кращий колір(и) мотоцикла:</h4>
+                        <ol id="selectable">
+                            <li class="ui-state-default"><img src="images/color/red.jpg" width="220" height="148" alt="" /></li>
+                            <li class="ui-state-default"><img src="images/color/green.jpg" width="220" height="148" alt="" /></li>
+                            <li class="ui-state-default"><img src="images/color/blue.jpg" width="220" height="148" alt="" /></li>
+                            <li class="ui-state-default"><img src="images/color/black.jpg" width="220" height="148" alt="" /></li>
+                        </ol>
+                    </div> -->
+
+                    <div>
+                        <div class="container sort">
+                            <div class="row">
+                                <div class="head text-center">
+                                    <h3><span> </span> Перевірте знання:</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h4>Відсортуйте гори за висотою:</h4>
+                                    <ul id="sortable">
+                                        <li class="ui-state-default">Бребенескул</li>
+                                        <li class="ui-state-default">Говерла</li>
+                                        <li class="ui-state-default">Шпиці</li>
+                                        <li class="ui-state-default">Піп Іван</li>
+                                        <li class="ui-state-default">Ребра</li>
+                                        <li class="ui-state-default">Стій</li>
+                                        <li class="ui-state-default">Гемба</li>
+                                        <li class="ui-state-default">Висока</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
             <div class="history">
                 <section>
                     <div class="row-2">
@@ -185,23 +292,31 @@
                                 <p> Гори посилюють висхідні рухи повітря, над ними формується більша хмарність і випадає більше опадів, ніж на рівнині.
                                     Навіть над низькими Донецькою та Приазовською височинами річна сума атмосферних опадів, як і кількість гроз і туманів, більша порівняно з навколишніми районами.
                                 </p>
-                                <div class="climate-gallery wow bounceInDown" data-wow-delay="300ms">
+                                <div class="climate-gallery wow bounceInDown" data-wow-delay="300ms" id="selectable">
                                     
-                                    <div class="climate-div-1 wow swing" data-wow-delay="600ms">
+                                     <div class="climate-div-1 wow swing" data-wow-delay="600ms">
                                         <div class="line"></div>
                                         <img src="images/climate-2.jpg" class="climat-2">
                                     </div>
+                                   
+
+                                   
                                     <div class="climate-div-2 wow swing" data-wow-delay="600ms">
                                         <div class="line"></div>
                                         <img src="images/climat-1.jpeg" class="climat-1">
                                     </div>
+                                    
+
+                                   
                                     <div class="climate-div-3 wow swing" data-wow-delay="600ms">
                                         <div class="line"></div>
                                         <img src="images/climate-3.jpg" class="climat-3">
                                     </div>
+                                    
                                     <!-- <img src="images/climat-1.jpeg" class="climat-1">
                                     <img src="images/climate-3.jpg" class="climat-3">
                                 </div> -->
+                                
                             </div>
 
                         </div>
@@ -247,6 +362,12 @@
 
 
     </footer>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/jquery.dmenu.js"></script>
+
+    <script src="./js/myscript.js"></script>
+
 
     <script src="./js/wow.min.js"></script>
     <script> new WOW().init(); </script>

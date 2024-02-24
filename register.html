@@ -11,6 +11,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
       </style>
 
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/jquery.dmenu.css">
+
     <link rel="stylesheet" href="./css/register.css">
 </head>
 <body>
@@ -43,7 +47,7 @@
                     <i class='bx bxs-down-arrow' ></i>
                 </div>
                 <br>
-                <a href="/login.html" class="reg-a"><button class="reg-link">Увійти</button></a>
+                <a href="./login.html" class="reg-a"><button class="reg-link">Увійти</button></a>
             </div>
         </form>
 
@@ -84,10 +88,18 @@
             
             </form>
 
+            <div id="dialog" title="Ваша Інформація профілю">
+                <p>Ваше замовлення відправлено на оброблення. Очікуйте підтвердження</p>
+            </div>
 
         </article>
     </main>
 
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/jquery.dmenu.js"></script>
+
+    <script src="./js/register.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/wow.min.js"></script>
     <script> new WOW().init(); </script>
