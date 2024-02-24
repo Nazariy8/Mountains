@@ -229,7 +229,9 @@ section{
 .reverse{
     display: flex;
     flex-direction: row-reverse;
-
+}
+.reverse p{
+    padding: 30px;
 }
 .reverse h1{
     text-align: right;
