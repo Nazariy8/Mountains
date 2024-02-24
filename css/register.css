@@ -148,7 +148,7 @@ article{
 .forgot{
     border: 3px solid white;
     border-radius: 20px 0px 0px 20px ;
-    background-image: url(/images/register-side-back.jpg);
+    background: url(../images/register-side-back.jpg);
     background-size: cover;
     display: flex;
     /* border: 2px solid red; */
