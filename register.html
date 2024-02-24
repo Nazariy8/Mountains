@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гори України | Реєстрація</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+      </style>
+
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+
+    <!-- header -->
+
+    <header>
+        <a href="/index.html">
+    <div class="content wow bounceInDown" data-wow-delay="400ms">
+            <div class="arrow-comeback">
+                <i class='bx bxs-arrow-from-right'></i>
+            </div>
+            <div class="comeback">
+                <h3>Повернутися на головну</h3>    
+            </div>
+    </div>
+        </a>
+    </header>
+
+    <!-- main -->
+    <main>
+        <article>
+
+
+            <form class="forgot wow fadeInLeftBig">
+                <div class="wrapper">
+                <h2 class="quest">Вже зареєстровані?</h2>
+                <p class="go">переходьте за посиланням нижче і входьте в аккаунт</p>
+                <div class="arrow-go wow bounce">
+                    <i class='bx bxs-down-arrow' ></i>
+                </div>
+                <br>
+                <a href="/login.html" class="reg-a"><button class="reg-link">Увійти</button></a>
+            </div>
+        </form>
+
+
+            <form class="login-place wow fadeInRightBig">
+
+                <div class="wrapper">
+                <h1>Реєстрація</h1>
+
+                <div class="login user-name">
+                    <input type="text" name="username" id="name" class="login-input" placeholder="Ім'я та Прізвище" minlength="3" required>
+                    <i class='bx bxs-user'></i>
+                    <!-- <label for="email" class="login-label">Почта або нікнейм</label> -->
+                </div>
+
+                <div class="login">
+                    <input type="email" name="mail"class="login-input" id="email" placeholder="hello@gmail.com" required>
+                    <i class='bx bxs-envelope'></i>
+                    <!-- <label for="email" class="login-label">Почта або нікнейм</label> -->
+                </div>
+                
+                <div class="password">
+                    <input type="password" class="password-input" id="pass" placeholder="Пароль" pattern="[a-zA-Z0-9]{4,8}" required>
+                    <i class='bx bxs-lock-alt'></i>
+                    <!-- <label for="password" class="password-label">Пароль</label> -->
+                </div>
+
+                <div class="password last-pass">
+                    <input type="password" class="password-input" id="pass-again" placeholder="Підвердіть пароль" required>
+                    <i class='bx bxs-lock' ></i>
+                    <!-- <label for="password" class="password-label">Пароль</label> -->
+                </div>
+                
+                <div class="button">
+                    <button type="submit" class="login-button">Зареєструватися</button>
+                </div>
+            </div>
+            
+            </form>
+
+
+        </article>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+
+</body>
+</html>
