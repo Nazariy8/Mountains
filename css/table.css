@@ -284,7 +284,7 @@ font-size: 70px;
 animation: box-shadow 2s ease infinite;
 }
 
-@keyframes box-shadow{
+/* @keyframes box-shadow{
     0%, 100%{
 
     }
@@ -295,4 +295,4 @@ animation: box-shadow 2s ease infinite;
     50%{
         box-shadow: 0 0 30px 5px #fff;
     }
-}
+} */
