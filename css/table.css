@@ -125,7 +125,7 @@ main{
     padding-bottom: 10px;
     color: #fff;
     /* filter: drop-shadow(0 0 0.5rem #fff); */
-    animation: scale 2s ease-in infinite;
+/*     animation: scale 2s ease-in infinite; */
 }
 .go{
     text-align: center;
