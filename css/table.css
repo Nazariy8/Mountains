@@ -125,25 +125,12 @@ main{
     padding-bottom: 10px;
     color: #fff;
     /* filter: drop-shadow(0 0 0.5rem #fff); */
-/*     animation: scale 2s ease-in infinite; */
 }
 .go{
     text-align: center;
     font-size: 22px;
     padding-bottom: 20px;
 }
-@keyframes scale{
-    0%, 100%{
-
-    }
-    25%{
-        scale:1.2;
-    }
-    75%{
-        scale:0.75;
-    }
-}
-
 aside{
     margin-top: 100px;
     width: 40%;
